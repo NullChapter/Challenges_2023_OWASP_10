@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Issues</title>
+</head>
+<body>
+  <script>
+    //Object.getOwnPropertyNames(window).forEach(function(prop) {
+    //  Object.defineProperty(window, prop, {
+    //    writable: false,
+    //    configurable: false
+    //  });
+    //});
+
+    //`Object.getOwnPropertyNames(document).forEach(function(prop) {
+    //  Object.defineProperty(document, prop, {
+    //    writable: false,
+    //    configurable: false
+    //  });
+    //});    
+  </script>
+  <ul>
+    <% ids.forEach(id => { %>
+      <li><a href="/issue/<%=id%>"><%= id %></a></li></script>
+    <% }) %>
+  </ul>
+</body>
+</html>

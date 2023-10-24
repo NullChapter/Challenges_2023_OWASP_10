@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin login</title>
+</head>
+<body>
+  <h1>Login to admin page</h1>
+  <form onsubmit="login()">
+    <input id="username" placeholder="Username" />
+    <input id="password" placeholder="Password" />
+    <button type="submit"">Submit</button>
+  </form>
+</body>
+<script>
+  const usernameField = document.getElementById('username')
+  const passwordField = document.getElementById('password')
+  
+  async function login() {
+    data = JSON.stringify({
+      username: usernameField.value,
+      password: passwordField.value
+    })
+    response = await fetch("http://localhost:3000/login", {
+      method: "POST",
+      headers: {"Content-Type": "application/json"},
+      body: data
+    })
+    result_data = await response.json()
+    if (result_data.message === "success") {
+      window.alert("Successfully logged in.")
+      window.location = "/admin"
+    } else {
+      window.alert("Could not log in. Please enter the correct credentials.")
+    }
+  }
+</script>
+</html>
