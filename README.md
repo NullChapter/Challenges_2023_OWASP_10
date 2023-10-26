@@ -6,16 +6,16 @@ Author: [NullChapter](https://github.com/NullChapter)
 
 ## Challenge Categories
 
-1. [Injection](./Injection)
-2. [Broken Authentication](./Broken%20Authentication)
-3. [Sensitive Data Exposure](./Sensitive%20Data%20Exposure)
-4. [XML External Entities (XXE)](./XML%20External%20Entities%20(XXE))
-5. [Broken Access Control](./Broken%20Access%20Control)
-6. [Security Misconfiguration](./Security%20Misconfiguration)
-7. [Cross-Site Scripting (XSS)](./Cross-Site%20Scripting%20(XSS))
-8. [Insecure Deserialization](./Insecure%20Deserialization)
-9. [Using Components with Known Vulnerabilities](./Using%20Components%20with%20Known%20Vulnerabilities)
-10. [Insufficient Logging and Monitoring](./Insufficient%20Logging%20and%20Monitoring)
+1. [Cryptographic Failures (Sensitive Data Exposure)](./Cryptographic%20Failures%20(Sensitive%20Data%20Exposure))
+2. [Insecure Design](./Insecure%20Design)
+3. [Security Logging and Monitoring Failures (Insufficient Logging and Monitoring)](./Security%20Logging%20and%20Monitoring%20Failures%20(Insufficient%20Logging%20and%20Monitoring))
+4. [Identification and Authentication Failures (Broken Authentication)](./Identification%20and%20Authentication%20Failures%20(Broken%20Authentication))
+5. [Security Misconfiguration (XML External Entity (XXE))](./Security%20Misconfiguration%20(XML%20External%20Entity%20(XXE)))
+6. [Server-Side Request Forgery (SSRF)](./Server-Side%20Request%20Forgery%20(SSRF))
+7. [Software and Data Integrity Failures (Insecure Deserialisation)](./Software%20and%20Data%20Integrity%20Failures%20(Insecure%20Deserialisation))
+8. [Vulnerable and Outdated Components (Using Components & Known Vulnerabilites)](./Vulnerable%20and%20Outdated%20Components%20(Using%20Components%20&%20Known%20Vulnerabilites))
+9. [Injection (Cross-Site Scripting (XSS))](./Injection%20(Cross-Site%20Scripting%20(XSS)))
+10. [Broken Access Control](./Broken%20Access%20Control)
 
 ---
 
