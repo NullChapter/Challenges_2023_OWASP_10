@@ -5,8 +5,7 @@ _You as well, Brutus?_
 
 ## Flag Format
 Flag format for easy challenge.  
-Flag should be set as an _environment variable_: __'FLAG'__
-
+Flag should be set as an _environment variable_: __'FLAG'__ _("NULL{'Y4Y_Y0U_W0N'}")_
 ## Setup
 
 ### Manual
@@ -17,8 +16,7 @@ Flag should be set as an _environment variable_: __'FLAG'__
     python3 -m venv .venv
     source .venv/bin/activate
     pip install -r requirements.txt
-    cd ./src
-    uvicorn main:app --port 2916 
+    uvicorn src.main:app --host 0.0.0.0 --port 2916 
     ```
 - The port for the app wil be exposed at http://localhost:2916
 
