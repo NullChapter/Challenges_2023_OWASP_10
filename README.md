@@ -35,7 +35,7 @@ This repository contains OWASP Top 10 CTF challenges designed to test your skill
 | Hard | [Identification and Authentication Failures (Broken Authentication)](./Identification%20and%20Authentication%20Failures%20(Broken%20Authentication)/hard)| [Author Name](https://github.com/authorusername) |
 | Easy | [Injection (Cross-Site Scripting (XSS))](./Injection%20(Cross-Site%20Scripting%20(XSS))/easy)| [Author Name](https://github.com/authorusername) |
 | Hard | [Injection (Cross-Site Scripting (XSS))](./Injection%20(Cross-Site%20Scripting%20(XSS))/hard)| [Author Name](https://github.com/authorusername) |
-| Easy | [Insecure Design](./Insecure%20Design/easy)| [Author Name](https://github.com/authorusername) |
+| Easy | [Insecure Design](./Insecure%20Design/easy)| [adikpb](https://github.com/adikpb) |
 | Hard | [Insecure Design](./Insecure%20Design/hard)| [Author Name](https://github.com/authorusername) |
 | Easy | [Security Logging and Monitoring Failures (Insufficient Logging and Monitoring)](./Security%20Logging%20and%20Monitoring%20Failures%20(Insufficient%20Logging%20and%20Monitoring)/easy)| [Author Name](https://github.com/authorusername) |
 | Hard | [Security Logging and Monitoring Failures (Insufficient Logging and Monitoring)](./Security%20Logging%20and%20Monitoring%20Failures%20(Insufficient%20Logging%20and%20Monitoring)/hard)| [Author Name](https://github.com/authorusername) |
