@@ -5,7 +5,7 @@ Install PHP XML extension with
 
 Now restart the webserver
 
-Note: Hide put the flag file in /etc
+Note: Hide put the flag file in /etc/flag
 
 ## Flag Format
 flag:   NULL{$Ucce$$Fu!!y_Pwn3d}
