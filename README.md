@@ -39,7 +39,7 @@ This repository contains OWASP Top 10 CTF challenges designed to test your skill
 | Hard | [Insecure Design](./Insecure%20Design/hard)| [Author Name](https://github.com/authorusername) |
 | Easy | [Security Logging and Monitoring Failures (Insufficient Logging and Monitoring)](./Security%20Logging%20and%20Monitoring%20Failures%20(Insufficient%20Logging%20and%20Monitoring)/easy)| [Author Name](https://github.com/authorusername) |
 | Hard | [Security Logging and Monitoring Failures (Insufficient Logging and Monitoring)](./Security%20Logging%20and%20Monitoring%20Failures%20(Insufficient%20Logging%20and%20Monitoring)/hard)| [Author Name](https://github.com/authorusername) |
-| Easy | [Security Misconfiguration (XML External Entity (XXE))](./Security%20Misconfiguration%20(XML%20External%20Entity%20(XXE))/easy)| [Author Name](https://github.com/authorusername) |
+| Easy | [Security Misconfiguration (XML External Entity (XXE))](./Security%20Misconfiguration%20(XML%20External%20Entity%20(XXE))/easy)| [Ranjith Ashok](https://github.com/ranjithashok003) |
 | Hard | [Security Misconfiguration (XML External Entity (XXE))](./Security%20Misconfiguration%20(XML%20External%20Entity%20(XXE))/hard)| [Author Name](https://github.com/authorusername) |
 | Easy | [Server-Side Request Forgery (SSRF)](./Server-Side%20Request%20Forgery%20(SSRF)/easy)| [Author Name](https://github.com/authorusername) |
 | Hard | [Server-Side Request Forgery (SSRF)](./Server-Side%20Request%20Forgery%20(SSRF)/hard)| [Author Name](https://github.com/authorusername) |
