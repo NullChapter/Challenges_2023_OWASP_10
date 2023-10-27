@@ -1,5 +1,12 @@
 # OWASP Top 10 CTF Challenge - Security Misconfiguration (XML External Entity (XXE)) (Easy)
-Description of the easy challenge goes here.
+Install PHP XML extension with 
+	
+	sudo apt install php-xml
+
+Now restart the webserver
+
+Note: Hide put the flag file in /etc
 
 ## Flag Format
-Flag format for easy challenge.
+flag:   NULL{$Ucce$$Fu!!y_Pwn3d}
+
