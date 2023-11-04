@@ -68,5 +68,5 @@ die;
           crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
-  <!-- the bruteforce limit is in gmail-->
+  <!-- lol pay for the clue$$$-->
 </html>
