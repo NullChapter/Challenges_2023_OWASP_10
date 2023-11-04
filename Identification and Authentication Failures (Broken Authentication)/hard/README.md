@@ -2,4 +2,5 @@
 
 
 ## Flag Format
-NULL{}
+### To add flag add in flag.php
+NULL{Ye4_BYP4$$3D}
