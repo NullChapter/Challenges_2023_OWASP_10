@@ -1,2 +1,2 @@
 <?php
-$flag="NULL{WOOO_BYPASSED}";
+$flag="NULL{Ye4_BYP4$$3D}";
