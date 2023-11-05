@@ -12,7 +12,7 @@
 <body>
     <main>
         <div class="container px-4 py-5" id="custom-cards">
-            <h2 class="pb-2 border-bottom">XXE-XML External Entities</h2>
+            <h2 class="pb-2 border-bottom">XXE-XML External Entities (Hard)</h2>
 
             <div class="p-5 mb-4 bg-light rounded-3">
                 <h2>XML File Upload</h2>

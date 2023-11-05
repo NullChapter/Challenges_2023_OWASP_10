@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Register Today</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            text-align: center;
+            color: #007BFF;
+        }
+
+        #registration {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        input.text {
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #errorMessage {
+            color: red;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        p {
+            text-align: center;
+        }
+    </style>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript">
+        function XMLFunction(){
+            let xmlrequest = '' + '<?xml version="1.0" encoding="UTF-8"?>' + '<root>' + '<firstname>' + $('#firstname').val() + '</firstname>' + '<phonenumber>' + $('#phonenumber').val() + '</phonenumber>' + '<emailadd>' + $('#emailadd').val() + '</emailadd>' + '</root>';
+            let request = new XMLHttpRequest();
+            request.onreadystatechange = function () {
+                if(request.readyState == 4){
+                    console.log(request.readyState);
+                    console.log(request.responseText);
+                    document.getElementById('errorMessage').innerHTML = request.responseText;
+                }
+            }
+            request.open("POST","xxe.php",true);
+            request.send(xmlrequest);
+        }
+</script>
+</head>
+<body>
+    <p>XXE-XML External Entities (Easy)</p>
+    <div id="registration">
+        <h2>Sign up now!</h2>
+        <div id="RegisterUserForm">
+            <fieldset>
+            <!--Check /flag -->
+                <p>
+                    <label for="firstname">First Name:</label>
+                    <input id="firstname" name="firstname" type="text" class="text" value="" />
+                </p>
+
+                <p>
+                    <label for="secondname">Second Name:</label>
+                    <input id="secondname" name="secondname" type="text" class="text" value="" />
+                </p>
+
+                <p>
+                    <label for="phonenumber">Number:</label>
+                    <input id="phonenumber" name="phonenumber" type="tel" class="text" value=""/>
+                </p>
+
+                <p>
+                    <label for="emailadd">Email:</label>
+                    <input id="emailadd" name="emailadd" type="email" class="text" value="" />
+                </p>
+                
+                <p>
+                <button id="regform" onclick="XMLFunction()">Register now!</button>
+                </p>
+            </fieldset>
+        </div>
+    </div>
+
+    <div id="errorMessage" color="red"></div>
+</body>
+</html>
