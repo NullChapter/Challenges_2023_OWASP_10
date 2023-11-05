@@ -3,5 +3,5 @@ Description of the easy challenge goes here.
 
 ### Flag Format
 null{34sy_p3a$y}
-###Hint 
+### Hint 
 in user page source code
