@@ -1,8 +1,12 @@
-# OWASP Top 10 CTF Challenge - Injection (Cross-Site Scripting (XSS)) (Easy)
-Description of the easy challenge goes here.
+# OWASP Top 10 CTF Challenge - Cross-Site Scripting (XSS) (Easy)
+A reflected XSS challenge involving JS injection via URL.
+The challenge consists of a birthday screen generation website.
+The key here is to cause a window.alert by injecting JS into the URL.
+This will send a request to the server, which will send the flag.
 
 ## Flag Format
-Flag format for easy challenge.
+Flag will be sent as a window alert. It can be configured within the .env file.
+Format: FLAG(flag_name)
 
 # Set-up
 
@@ -11,14 +15,8 @@ Flag format for easy challenge.
 1. Run command `npm i`.
 2. Create a .env file with the following configuration:
 ```
-COOKIE_KEY=secret
 PORT=3000
-BOT_USERNAME=hi
-BOT_PASSWORD=123
-FLAG=Yougotit
-BOT_AUTH=1234567890
-DB_URI=mongodb://localhost:27017
+COOKIE_KEY=SECRET
+FLAG=FLAG(Yougotit)
 ```
-3. Start the MongoDB connection.
-4. Start the server using `node index.js` or `nodemon index.js`
-5. Start the bot using `node puppeteerBot.js`
+3. Start the server using `node index.js` or `nodemon index.js`

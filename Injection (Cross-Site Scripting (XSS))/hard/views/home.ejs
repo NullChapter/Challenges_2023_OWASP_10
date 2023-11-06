@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XYZ Support</title>
+</head>
+<body>
+  <%- include('navbar'); -%>
+  <h1 id="hey">Raise a support ticket</h1>
+  <form onsubmit="uploadData()">
+    <input id="input" placeholder="Enter your issue here" value="" />
+    <button type="submit">Submit ticket</button>
+  </form>
+</body>
+<script>
+  const tokenField = document.getElementById('input');
+
+  async function uploadData() {
+    const data = JSON.stringify({ticket: tokenField.value})
+    const response = await fetch("/upload", {
+      method: "POST", 
+      headers: {"Content-Type": "application/json"},
+      body: data
+    })
+    console.log(data)
+    const result_data = await response.json();
+    if (result_data.message === "success") {
+      window.alert(`Your support ticket ${tokenField.value} has been uploaded successfully.`);
+    } else {
+      window.alert("Your support ticket couldn't be uploaded.");
+    }
+  }
+</script>
+</html>

@@ -3,33 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>XYZ Support</title>
+  <title>Birthday page generator</title>
 </head>
 <body>
-  <%- include('navbar'); -%>
-  <h1 id="hey">Raise a support ticket</h1>
-  <form onsubmit="uploadData()">
-    <input id="input" placeholder="Enter your issue here" value="" />
-    <button type="submit">Submit ticket</button>
+  <h1>Birthday page generator</h1>
+  <form action="/generate" method="POST">
+    <label for="text">Who do you want to wish?</label>
+    <input id="text" placeholder="Name" name="name"/>
+    <button type="submit">Submit</button>
   </form>
 </body>
-<script>
-  const tokenField = document.getElementById('input');
-
-  async function uploadData() {
-    const data = JSON.stringify({ticket: tokenField.value})
-    const response = await fetch("/upload", {
-      method: "POST", 
-      headers: {"Content-Type": "application/json"},
-      body: data
-    })
-    console.log(data)
-    const result_data = await response.json();
-    if (result_data.message === "success") {
-      window.alert(`Your support ticket ${tokenField.value} has been uploaded successfully.`);
-    } else {
-      window.alert("Your support ticket couldn't be uploaded.");
-    }
-  }
-</script>
 </html>

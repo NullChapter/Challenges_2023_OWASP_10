@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday!</title>
+</head>
+<script>
+  const originalAlert = window.alert
+  window.alert = (message) => {
+    fetch('/send', {
+      method: 'POST',
+      headers: {
+       'Content-Type': 'application/json',
+       'X-XSRF-TOKEN': document.cookie.replace(/(?:(?:^|.*;\s*)XSRF-TOKEN\s*\=\s*([^;]*).*$)|^.*$/, "\$1")
+      },
+      body: JSON.stringify({message: "Done"})
+     }).then(response => {
+      return response.json()
+     }).then(data => {
+      originalAlert(data.message)
+     }).catch(error => {
+      console.error(error)
+     })
+  }
+</script>
+<body>
+  <h1>Happy Birthday <%- user_name %>!</h1>
+</body>
+</html>
