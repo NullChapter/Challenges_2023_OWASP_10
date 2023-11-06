@@ -3,3 +3,4 @@ Description of the easy challenge goes here.
 
 ## Flag Format
 Flag format for easy challenge.
+NULL{L$4884#}
