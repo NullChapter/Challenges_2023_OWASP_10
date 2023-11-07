@@ -6,7 +6,7 @@ _You as well, Brutus?_
 
 ## Flag Format
 Flag format for hard challenge.  
-Flag should be set as an _environment variable_: __'FLAG'__ _("NULL{'Y4Y_Y0U_W0N'}")_
+Flag should be set as an _environment variable_: __'FLAG'__ _("NULL{Y4Y_Y0U_W0N}")_
 
 ## Setup
 ### Manual
