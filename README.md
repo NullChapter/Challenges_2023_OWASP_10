@@ -41,7 +41,7 @@ This repository contains OWASP Top 10 CTF challenges designed to test your skill
 | Hard | [Security Logging and Monitoring Failures (Insufficient Logging and Monitoring)](./Security%20Logging%20and%20Monitoring%20Failures%20(Insufficient%20Logging%20and%20Monitoring)/hard)| [Author Name](https://github.com/authorusername) |
 | Easy | [Security Misconfiguration (XML External Entity (XXE))](./Security%20Misconfiguration%20(XML%20External%20Entity%20(XXE))/easy)| [Ranjith Ashok](https://github.com/ranjithashok003) |
 | Hard | [Security Misconfiguration (XML External Entity (XXE))](./Security%20Misconfiguration%20(XML%20External%20Entity%20(XXE))/hard)| [Ranjith Ashok](https://github.com/ranjithashok003) |
-| Easy | [Server-Side Request Forgery (SSRF)](./Server-Side%20Request%20Forgery%20(SSRF)/easy)| [Author Name](https://github.com/authorusername) |
+| Easy | [Server-Side Request Forgery (SSRF)](./Server-Side%20Request%20Forgery%20(SSRF)/easy)| [Likhit](https://github.com/LIKHIT8783) |
 | Hard | [Server-Side Request Forgery (SSRF)](./Server-Side%20Request%20Forgery%20(SSRF)/hard)| [Harshith](https://github.com/Harshith-Gamini) |
 | Easy | [Software and Data Integrity Failures (Insecure Deserialisation)](./Software%20and%20Data%20Integrity%20Failures%20(Insecure%20Deserialisation)/easy)| [Author Name](https://github.com/authorusername) |
 | Hard | [Software and Data Integrity Failures (Insecure Deserialisation)](./Software%20and%20Data%20Integrity%20Failures%20(Insecure%20Deserialisation)/hard)| [Author Name](https://github.com/authorusername) |
