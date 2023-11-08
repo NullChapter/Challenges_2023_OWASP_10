@@ -4,6 +4,7 @@ Description of the hard challenge goes here.
   - Run the start_servers.bat file
 - For linux users:
   - Run the run.sh file
+- The App.js is running on port 2640
 
 # Hint
 Use the page source to get the flag.
