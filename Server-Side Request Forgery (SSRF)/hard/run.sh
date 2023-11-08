@@ -1,6 +1,5 @@
 #!/bin/bash
-python -m http.server 1729 --bind 127.0.0.1 --directory ./flag &
-P1=$!
+trap "trap - SIGTERM && kill -- -$$" SIGINT SIGTERM EXIT
+python3 -m http.server 1729 --bind 127.0.0.1 --directory ./flag &
+npm install
 node app.js
-P2=$!
-wait $P1 $P2
