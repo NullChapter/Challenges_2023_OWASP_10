@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+    margin-top: 100px ;
+}
+
+ol{
+    text-align: center;
+    line-height: 50px;
+}
+
+
+table {
+    margin: 0 auto; /* Center the table */
+    border-collapse: collapse;
+    width: 80%; /* Adjust the width as needed */
+    align-content: center;
+}
+
+ th, td {
+    border: 1px solid black;
+    text-align: left;
+}
+
+th, td {
+    padding: 8px;
+}
+
+table, th, td {
+    border: none; /* Remove table borders */
+}
+
+.center-button{
+    text-align: center;
+
+}
+.form-container input,
+.form-container button {
+    margin: 0 auto;
+    display: block;
+}
