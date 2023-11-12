@@ -68,5 +68,5 @@ die;
           crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
-  <!-- lol pay for the clue$$$-->
+  <!-- gmail says whatever you want$$$-->
 </html>
