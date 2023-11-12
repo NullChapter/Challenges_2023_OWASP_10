@@ -9,9 +9,6 @@ IP addresses
 Find Ip of the Attacker?
 ans: 50.96.12.14
 
-what is the attack performed? 
-ans : Brute force
-
 ## Flag Format
 Flag format for easy challenge.
 NULL{L$4884#}
