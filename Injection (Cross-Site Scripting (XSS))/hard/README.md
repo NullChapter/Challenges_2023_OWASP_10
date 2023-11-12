@@ -4,6 +4,7 @@ The challenge consists of a customer support website.
 Users can send support tickets, which will be read by a bot.
 The key is to inject a script that will read and send out the cookies of the bot.
 The credentials from the cookies can be used to access the admin page, revealing the flag.
+HINT: All data must be cooked.
 
 ## Flag Format
 Flag will be in the admin page. It can be configured within the .env file.

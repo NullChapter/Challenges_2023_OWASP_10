@@ -3,6 +3,7 @@ A reflected XSS challenge involving JS injection via URL.
 The challenge consists of a birthday screen generation website.
 The key here is to cause a window.alert by injecting JS into the URL.
 This will send a request to the server, which will send the flag.
+HINT: A bit of trolling should do.
 
 ## Flag Format
 Flag will be sent as a window alert. It can be configured within the .env file.
