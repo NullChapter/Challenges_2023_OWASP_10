@@ -6,7 +6,7 @@ This will send a request to the server, which will send the flag.
 
 ## Flag Format
 Flag will be sent as a window alert. It can be configured within the .env file.
-Format: FLAG(flag_name)
+Format: FLAG{flag_name}
 
 # Set-up
 
@@ -17,6 +17,6 @@ Format: FLAG(flag_name)
 ```
 PORT=3000
 COOKIE_KEY=SECRET
-FLAG=FLAG(Yougotit)
+FLAG=FLAG{C3rul3anSuns3t}
 ```
 3. Start the server using `node index.js` or `nodemon index.js`
