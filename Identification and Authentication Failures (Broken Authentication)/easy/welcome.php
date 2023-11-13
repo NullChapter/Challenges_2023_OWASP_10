@@ -7,7 +7,7 @@ if (!isset($_SESSION['username']) || $_SESSION['username'] !== 'user1') {
     exit;
 }
 ?>
-<!DOCTYPE html> <!--do you know idor ?--> 
+<!DOCTYPE html>
 <html>
 <head>
     <title>Welcome Page</title>
@@ -39,7 +39,7 @@ if (!isset($_SESSION['username']) || $_SESSION['username'] !== 'user1') {
 </head>
 <body>
     <h2>Welcome, users!</h2>
-    <p>This is the welcome page for users. <strong>TRY TO GET ADMIN PAGE</strong></p>
+    <p>This is the welcome page for users. <strong></strong></p>
     <a href="logout.php">Logout</a>
 </body>
 </html>
