@@ -29,7 +29,7 @@ app.get('/', (req, res) => {
 // Routes
 app.post("/admin/", adminRoute);
 app.post("/flag/", isAdmin, (req,res) => {
-  res.json({"flag" : "NULL{YOU_NOW_HAVE_UNDERSTANDING_OF_JWT}"});
+  res.json({"flag" : "NULL{YOU_NOW_HAVE_AN_UNDERSTANDING_OF_JWT}"});
 });
 app.get("/home/", isAuthorized, (req,res) => {
   res.json({"message" : "Good Job you created an account! Now what?"});
