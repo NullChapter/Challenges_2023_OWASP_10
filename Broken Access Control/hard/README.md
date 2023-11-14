@@ -88,4 +88,11 @@ After running this command, your server should be listening on the port specifie
 ```
 `NULL{YOU_NOW_HAVE_AN_UNDERSTANDING_OF_JWT}`
 ```
+---
+### HINTS:
+
+
+#### 1. Unlock the secret with patience and persistence. The key lies in trying every possible combination, but remember, efficiency is key. Think about what makes sense in the context of the challenge and explore systematically. (-10)
+#### 2. Uncover the secret in the JWT by understanding common practices in key generation. (-5)
+#### 3. Brute force the secret key; it's a 3-digit key. (-30)
 
