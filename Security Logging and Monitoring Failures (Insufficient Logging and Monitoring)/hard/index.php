@@ -147,7 +147,7 @@ table, th, td {
                 alert("NULL{L@K&E#}");
             } else {
                 // If the keys do not match, display an error message
-                alert("IP is incorrect. Please try again.");
+                alert("Answer is incorrect. Please try again.");
             }
         });
 
