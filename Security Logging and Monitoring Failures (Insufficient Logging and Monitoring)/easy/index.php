@@ -144,7 +144,7 @@ table, th, td {
             // Check if the entered key matches the correct key
             if (userKey === correctKey) {
                 // If the keys match, display an alert with the message
-                alert("");
+                alert("NULL{L$4884#}");
             } else {
                 // If the keys do not match, display an error message
                 alert("IP is incorrect. Please try again.");
