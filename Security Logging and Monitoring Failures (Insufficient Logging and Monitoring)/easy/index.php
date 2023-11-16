@@ -131,7 +131,7 @@ table, th, td {
     <h1>Find Attack Performed?</h1>
     <div class="center-button">
         <input type="text" id="keyInput" placeholder="Attack Performed?">
-        <button id="checkButton">Find Attack</button>
+        <button id="checkButton">What is the attacker IP?</button>
     </div>
     <script>
         document.getElementById('checkButton').addEventListener('click', function() {
