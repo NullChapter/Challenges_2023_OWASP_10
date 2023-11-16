@@ -139,15 +139,15 @@ table, th, td {
             var userKey = document.getElementById('keyInput').value;
 
             // Define the correct key
-            var correctKey = "Brute Force";
+            var correctKey = "50.96.12.14";
 
             // Check if the entered key matches the correct key
             if (userKey === correctKey) {
                 // If the keys match, display an alert with the message
-                alert("NULL{L@K&E#}");
+                alert("");
             } else {
                 // If the keys do not match, display an error message
-                alert("Answer is incorrect. Please try again.");
+                alert("IP is incorrect. Please try again.");
             }
         });
 
