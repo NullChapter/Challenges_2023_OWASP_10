@@ -1,5 +1,5 @@
 FROM node:slim
-WORKDIR /wierd-securitatis
+WORKDIR /app
 
 COPY package*.json ./
 RUN npm install 

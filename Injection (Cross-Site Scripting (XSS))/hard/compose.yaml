@@ -1,0 +1,13 @@
+services:
+  db:
+    image: mongo:latest
+    restart: always
+  app:
+    build: .
+    ports:
+      - ${PORT}:${PORT}
+    depends_on:
+      db:
+        condition: service_started
+    environment:
+      DB_URI: mongodb://db:27017
