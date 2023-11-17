@@ -23,5 +23,5 @@ module.exports = async (req, res) => {
         httpOnly: true,
     });
 
-    return res.json({"flag" : "NULL{YOU_NOW_HAVE_UNDERSTANDING_OF_JWT}"});
+    return res.json({"flag" : "NULL{YOU_NOW_HAVE_AN_UNDERSTANDING_OF_JWT}"});
 }
