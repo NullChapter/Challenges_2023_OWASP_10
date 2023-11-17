@@ -1,0 +1,6 @@
+services:
+  app:
+    build: .
+    ports: 
+      - ${PORT}:${PORT}
+    command: uvicorn src.main:app --host 0.0.0.0 --port $PORT
