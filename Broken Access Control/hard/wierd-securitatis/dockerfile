@@ -1,0 +1,27 @@
+
+# Stage 1: Build Node.js application
+FROM node:18 AS node_build
+
+# Set the working directory
+WORKDIR /app
+
+# Copy the Node.js application files
+COPY package*.json ./
+
+# Install dependencies
+RUN npm install
+
+# Copy the application code
+COPY . .
+
+# Build the Node.js application
+# RUN npm run build
+
+
+# Set the working directory for the Node.js application
+WORKDIR /app
+
+RUN node initDB.js 
+EXPOSE 3555 
+# Run the Node.js application
+CMD ["node", "index.js"]
