@@ -1,0 +1,64 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert
+    kompose.version: 1.26.1 (a9d05d509)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: app
+  name: app
+  namespace: weirdmachine
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      io.kompose.service: app
+  strategy: {}
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert
+        kompose.version: 1.26.1 (a9d05d509)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: app
+    spec:
+      enableServiceLinks: false
+      automountServiceAccountToken: false
+      containers:
+        - env:
+            - name: FLAG
+              value: SEE{und3r6r4d_4dm15510n5_4r3_cr4zy_7fc37a510e35d46075f70325295f4526}
+            - name: PYTHONUNBUFFERED
+              value: "1"
+          image: sanjay7178/ctfd-mod-git:nov.16 
+          name: app
+          ports:
+            - containerPort: 8000
+          resources: {}
+      restartPolicy: Always
+status: {}
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    kompose.cmd: kompose convert
+    kompose.version: 1.26.1 (a9d05d509)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: app
+  name: app
+  namespace: weirdmachine
+spec:
+  ports:
+    - name: "80"
+      port: 80
+      targetPort: 8000
+  selector:
+    io.kompose.service: app
+  type: LoadBalancer
+status:
+  loadBalancer: {}
