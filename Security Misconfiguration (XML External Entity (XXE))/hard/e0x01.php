@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>XXE 0x01</title>
-    <link href="../XXE/assets/bootstrap.min.css" rel="stylesheet">
-    <link href="../XXE/assets/custom.css" rel="stylesheet">
+    <link href="../assets/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/custom.css" rel="stylesheet">
 </head>
 
 <body>
