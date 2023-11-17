@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XXE 0x01</title>
-    <link href="../assets/bootstrap.min.css" rel="stylesheet">
-    <link href="../assets/custom.css" rel="stylesheet">
+    <title>XXE (Hard)</title>
+    <link href="assets/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/custom.css" rel="stylesheet">
 </head>
 
 <body>
@@ -71,8 +71,8 @@
         </div>
     </main>
     <!--/etc/flag looks interesting--> 
-    <script src="../XXE/assets/popper.min.js"></script>
-    <script src="../XXE/assets/bootstrap.min.js"></script>
+    <script src="assets/popper.min.js"></script>
+    <script src="assets/bootstrap.min.js"></script>
 </body>
 
 </html>
