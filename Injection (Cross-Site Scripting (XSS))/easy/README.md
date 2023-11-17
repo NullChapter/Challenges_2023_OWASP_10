@@ -18,6 +18,6 @@ Format: FLAG{flag_name}
 ```
 PORT=3000
 COOKIE_KEY=SECRET
-FLAG=FLAG{C3rul3anSuns3t}
+FLAG=NULL{C3rul3anSuns3t}
 ```
 3. Start the server using `node index.js` or `nodemon index.js`
