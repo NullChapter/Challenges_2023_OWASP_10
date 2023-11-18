@@ -92,26 +92,6 @@
         <input type="text" id="keyInput" placeholder="Enter IP of Target">
         <button id="checkButton">Check IP</button>
     </div>
-    <script>
-        document.getElementById('checkButton').addEventListener('click', function() {
-            // Get the value entered by the user
-            var userKey = document.getElementById('keyInput').value;
-
-            // Define the correct key
-            var correctKey = "50.96.12.14";
-
-            // Check if the entered key matches the correct key
-            if (userKey === correctKey) {
-                // If the keys match, display an alert with the message
-                alert("NULL{L$4884#}");
-            } else {
-                // If the keys do not match, display an error message
-                alert("IP is incorrect. Please try again.");
-            }
-        });
-        document.addEventListener('contextmenu', function(e) {
-        e.preventDefault();
-        });
-    </script>
+    <script src="./script.js"></script>
 </body>
 </html>
