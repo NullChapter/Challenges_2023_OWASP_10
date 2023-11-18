@@ -1,4 +1,9 @@
 FROM php:cli
 
-COPY . /var/www/html/
-RUN 
+COPY . ./app
+
+WORKDIR ./app
+
+EXPOSE 8005
+
+ENTRYPOINT  ["php", "-S", "localhost:8004"]

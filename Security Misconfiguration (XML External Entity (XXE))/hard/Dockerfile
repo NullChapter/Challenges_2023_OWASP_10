@@ -1,4 +1,9 @@
-FROM php:apache
+FROM php:cli
 
-RUN  sudo apt install php-xml
-COPY . /var/www/html
+COPY . ./app
+
+WORKDIR ./app
+
+EXPOSE 8005
+
+ENTRYPOINT  ["php", "-S", "localhost:8005"]
